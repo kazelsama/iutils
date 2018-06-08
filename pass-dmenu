@@ -1,0 +1,1 @@
+pass ls | sed -e 's#^.──.##m' | tail -n +2 | dmenu | xargs -n2 pass -c | while read SPAM_OUT; do notify-send "$SPAM_OUT"; done
