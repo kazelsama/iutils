@@ -1,2 +1,2 @@
 # iutils
-iutils is a sweg collection of commands
+Sweg collection of commands
